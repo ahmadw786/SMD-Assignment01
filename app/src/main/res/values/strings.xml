@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SMD_21L-5844</string>
+
+    <string name="sender_name">Full Name</string>
+    <string name="sender_email">Email</string>
+    <string name="sender_contact_information">Contact Information</string>
+    <string name="sender_country">Country</string>
+    <string name="sender_address">Address</string>
+
+
+    <string name="receiver_email">Email</string>
+    <string name="receiver_contact_information">Contact Information</string>
+    <string name="receiver_country">Country</string>
+    <string name="receiver_address">Address</string>
+
+
+
+    <string name="transaction_arrow">Transaction Arrow</string>
+    <string name="edit_info">Edit Information</string>
+
+
+
+
+    <string name="receiver_name">Receiver Name</string>
+    <string name="next">Next</string>
+    <string name="edit">Edit</string>
+    <string name="sender_info">Sender Information</string>
+    <string name="receiver_info">Receiver Information</string>
+
+</resources>

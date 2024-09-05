@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background_color">
+
+    <TextView
+        android:text="REVIEW DETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background_color"
+        android:id="@+id/reviewheading"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_red_background"
+    >
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/tblHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_below="@id/reviewheading"
+        android:padding="8dp">
+
+        <!-- Header Row -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Info"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:gravity="center"
+                android:padding="8dp"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvSenderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvSenderCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvSenderAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvSenderContactInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+        </TableRow>
+
+    <TableRow>
+
+    <ImageView
+            android:id="@+id/ivArrow"
+            android:src="@drawable/arrow"
+            android:padding="16dp"/>
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvReceiverName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvReceiverCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvReceiverAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvReceiverContactInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:padding="8dp"
+                android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/add" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/etReceiverAddressDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver Details"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded_red_background"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etReceiverEmail"
+        android:background="@drawable/input_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_email"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/default_padding"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etReceiverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_name"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_rounded"
+        android:padding="@dimen/default_padding"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etReceiverContactInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_contact_information"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_rounded"
+        android:padding="@dimen/default_padding"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etReceiverCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_country"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/input_rounded"
+        android:padding="@dimen/default_padding"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etReceiverAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_address"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/default_padding"
+        android:background="@drawable/input_rounded"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white" />
+</LinearLayout>

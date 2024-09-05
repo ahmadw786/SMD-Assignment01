@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/senderDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sender Details"
+        android:textColor="@android:color/white"
+
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+    android:layout_marginTop="4dp"
+
+        android:background="@drawable/rounded_red_background"
+
+        />
+
+
+
+    <EditText
+        android:background="@drawable/input_rounded"
+        android:backgroundTint="@color/white"
+        android:id="@+id/etSenderEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sender_email"
+        android:textColor="@color/text_color"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:background="@drawable/input_rounded"
+        android:backgroundTint="@color/white"
+        android:id="@+id/etSenderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sender_name"
+        android:textColor="@color/text_color"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:background="@drawable/input_rounded"
+        android:backgroundTint="@color/white"
+        android:inputType="phone"
+        android:id="@+id/etSenderContactInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sender_contact_information"
+        android:textColor="@color/text_color"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:background="@drawable/input_rounded"
+        android:backgroundTint="@color/white"
+        android:id="@+id/etSenderCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sender_country"
+        android:textColor="@color/text_color"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:background="@drawable/input_rounded"
+        android:backgroundTint="@color/white"
+        android:id="@+id/etSenderAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sender_address"
+        android:textColor="@color/text_color"
+        android:padding="@dimen/default_padding"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
+
+
